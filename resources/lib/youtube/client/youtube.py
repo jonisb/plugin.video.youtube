@@ -220,7 +220,6 @@ class YouTube(LoginClient):
         params = {'part': 'snippet',
                   'maxResults': str(self._max_results),
                   'regionCode': self._country,
-                  'hl': self._language,
                   'chart': 'mostPopular'}
         if page_token:
             params['pageToken'] = page_token
@@ -357,7 +356,7 @@ class YouTube(LoginClient):
         else:
             params['mine'] = 'true'
             pass
-        return self._perform_v3_request(method='GET', path='channels', params=params, quota_optimized=False)
+        return self._perform_v3_request(method='GET', path='channels', params=params)
 
     def get_disliked_videos(self, page_token=''):
         # prepare page token
@@ -423,7 +422,7 @@ class YouTube(LoginClient):
             params['pageToken'] = page_token
             pass
 
-        return self._perform_v3_request(method='GET', path='search', params=params, quota_optimized=True)
+        return self._perform_v3_request(method='GET', path='search', params=params)
 
     def get_related_videos(self, video_id, page_token=''):
         # prepare page token
@@ -442,7 +441,7 @@ class YouTube(LoginClient):
             params['pageToken'] = page_token
             pass
 
-        return self._perform_v3_request(method='GET', path='search', params=params, quota_optimized=True)
+        return self._perform_v3_request(method='GET', path='search', params=params)
 
     def search(self, q, search_type=['video', 'channel', 'playlist'], event_type='', page_token=''):
         """
@@ -485,7 +484,7 @@ class YouTube(LoginClient):
             params['pageToken'] = page_token
             pass
 
-        return self._perform_v3_request(method='GET', path='search', params=params, quota_optimized=False)
+        return self._perform_v3_request(method='GET', path='search', params=params)
 
     def get_my_subscriptions(self, page_token=None, offset=0):
         if not page_token:
@@ -577,14 +576,9 @@ class YouTube(LoginClient):
         return _perform(_page_token=page_token, _offset=offset, _result=result)
 
     def _perform_v3_request(self, method='GET', headers=None, path=None, post_data=None, params=None,
-                            allow_redirects=True, quota_optimized=True):
-
+                            allow_redirects=True):
         # first set the config for the corresponding system (Frodo, Gotham, Helix, ...)
         yt_config = self._config
-        # in any case of these APIs we change the config to a common key to save some quota
-        if quota_optimized and path in ['channels', 'search']:
-            yt_config = self.CONFIGS['youtube-for-kodi-quota']
-            pass
 
         # params
         if not params:

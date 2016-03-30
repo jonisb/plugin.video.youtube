@@ -93,8 +93,8 @@ class Provider(kodion.AbstractProvider):
 
         access_manager = context.get_access_manager()
         access_tokens = access_manager.get_access_token().split('|')
-        if access_manager.is_new_login_credential() or len(
-                access_tokens) != 2 or access_manager.is_access_token_expired():
+        if access_manager.is_new_login_credential() or \
+           len(access_tokens) != 2 or access_manager.is_access_token_expired():
             # reset access_token
             access_manager.update_access_token('')
             # we clear the cache, so none cached data of an old account will be displayed.
@@ -103,13 +103,8 @@ class Provider(kodion.AbstractProvider):
             self._client = None
             pass
 
-        if not self._client:
-            major_version = context.get_system_version().get_version()[0]
-            youtube_config = YouTube.CONFIGS.get('youtube-for-kodi-%d' % major_version, None)
-            if not youtube_config or youtube_config is None:
-                youtube_config = YouTube.CONFIGS['youtube-for-kodi-fallback']
-                pass
-
+        youtube_config = YouTube.CONFIGS.get('youtube-tv', None)
+        if not self._client and youtube_config:
             context.log_debug('Selecting YouTube config "%s"' % youtube_config['system'])
 
             language = context.get_settings().get_string('youtube.language', 'en-US')
@@ -118,18 +113,7 @@ class Provider(kodion.AbstractProvider):
             if access_manager.has_login_credentials():
                 access_manager.remove_login_credentials()
                 pass
-
             if access_manager.has_login_credentials() or access_manager.has_refresh_token():
-                last_kodi_version = settings.get_int('youtube.login.version', 0)
-
-                if last_kodi_version != major_version:
-                    context.log_warning(
-                        'Different KODI versions (%d != %d) signing out for new login' % (
-                            last_kodi_version, major_version))
-                    self.reset_client()
-                    access_manager.update_access_token(access_token='', refresh_token='')
-                    pass
-
                 # username, password = access_manager.get_login_credentials()
                 access_tokens = access_manager.get_access_token()
                 if access_tokens:
