@@ -1,3 +1,7 @@
+(2016-03-30)
+Removed all keys/quota function other than from Settings
+Update english strings to more a detailed description for API/OAuth keys
+
 5.1.20.5 (2016-03-20)
 [upd] Ignore if '.apps.googleusercontent.com' entered in API Id string in add-on settings
 
