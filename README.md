@@ -1,16 +1,52 @@
-![](https://raw.githubusercontent.com/bromix/repository.bromix.storage/master/plugin.video.youtube/icon.png)
+**YouTube Data API Browser Key and OAuth 2.0 Client ID are required to use this add-on.**
+
+**Generating your own YouTube API and OAuth keys:**
+
+* **1**
+
+[Sign-in here https://console.developers.google.com/project](https://console.developers.google.com/project)
+
+* **2**
+
+![](http://i.imgur.com/Bg2ob48.png)
+
+* **3**
+
+![](http://i.imgur.com/Iriw5T5.png)
+
+* **4**
+
+![](http://i.imgur.com/pdRIYaE.png)
+
+* **5**
+
+![](http://i.imgur.com/oZurYwE.png)
+
+* **6**
+
+![](http://i.imgur.com/Ga2BNNw.png)
+
+* **7** After clicking create, copy/paste or write down the OAuth 2.0 Client ID and Secret
+
+![](http://i.imgur.com/kEsCaUS.png)
+
+* **8**
+
+![](http://i.imgur.com/362Z42Q.png)
+
+* **9**
+
+![](http://i.imgur.com/9fgRIc5.png)
+
+* **10** After clicking create, copy/paste or write down the API Key
+
+![](http://i.imgur.com/dPqnuQc.png)
+
+* **11** Enter your new keys into the settings of the YouTube add-on in Kodi (also may need to cycle your sign-in)
+
+![](http://i.imgur.com/tYZxiJ4.png)
+
+
 # **Links:**
-
 * [YouTube](http://www.youtube.com)
-* [EndPoints - Videos](https://github.com/bromix/plugin.video.youtube/wiki/EndPoints#videos)
-* [EndPoints - Playlist](https://github.com/bromix/plugin.video.youtube/wiki/EndPoints#playlists)
-* [EndPoints - Channels](https://github.com/bromix/plugin.video.youtube/wiki/EndPoints#channels)
-* [Missing or not supported](https://github.com/bromix/plugin.video.youtube/wiki/Missing-or-Broken)
 * [Support thread](http://forum.kodi.tv/showthread.php?tid=200735)
-
-[![](https://www.paypalobjects.com/en_GB/i/btn/btn_donate_LG.gif)](https://goo.gl/U5oVOj) [![](https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif)](https://goo.gl/15V9TN) [![](https://www.paypalobjects.com/de_DE/i/btn/btn_donate_LG.gif)](https://goo.gl/oEjE9E) [![](https://pledgie.com/campaigns/29261.png?skin_name=chrome)](https://goo.gl/K4RZrZ) [![](https://raw.githubusercontent.com/bromix/repository.bromix.storage/master/flattr-badge-large.png)](http://flattr.com/thing/4196324) 
-
-# **Images:**
-![](http://i.imgur.com/W5UEby8.png)
-![](http://i.imgur.com/rfqpIYC.png)
-![](http://i.imgur.com/hoIuZ1K.png)
