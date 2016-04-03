@@ -242,7 +242,7 @@ msgid "API Key"
 msgstr ""
 
 msgctxt "#30201"
-msgid "Browser API Key"
+msgid "API Browser Key"
 msgstr ""
 
 msgctxt "#30202"
