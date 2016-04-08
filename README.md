@@ -49,5 +49,4 @@ ___
 ___
 # **Links:**
 * [YouTube](http://www.youtube.com)
-* [Support thread](http://forum.kodi.tv/showthread.php?tid=200735)
 * [YouTube Data API Docs](https://developers.google.com/youtube/v3/docs/)

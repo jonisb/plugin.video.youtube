@@ -1,6 +1,6 @@
-(2016-03-30)
 Removed all keys/quota function other than from Settings
 Update english strings to more a detailed description for API/OAuth keys
+Bump requirements to Kodi 14+
 
 5.1.20.6 (2016-04-03)
 [add] Greek Translation from twilight0
