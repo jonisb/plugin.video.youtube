@@ -233,15 +233,15 @@ msgid "API Key"
 msgstr ""
 
 msgctxt "#30201"
-msgid "API Key"
+msgid "API Browser Key"
 msgstr ""
 
 msgctxt "#30202"
-msgid "API Id"
+msgid "OAuth Client ID"
 msgstr ""
 
 msgctxt "#30203"
-msgid "API Secret"
+msgid "OAuth Client Secret"
 msgstr ""
 
 #YouTube
