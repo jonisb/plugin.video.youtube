@@ -459,3 +459,11 @@ msgstr ""
 msgctxt "#30550"
 msgid "Region"
 msgstr ""
+
+msgctxt "#30551"
+msgid "Use MPEG-DASH"
+msgstr ""
+
+msgctxt "#30552"
+msgid "Configure MPEG-DASH InputStream Client"
+msgstr ""
