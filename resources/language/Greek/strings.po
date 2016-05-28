@@ -458,4 +458,8 @@ msgstr "Δεν βρέθηκαν άλλες ροές"
 
 msgctxt "#30550"
 msgid "Region"
-msgstr "περιοχή"
+msgstr "Περιοχή"
+
+msgctxt "#30551"
+msgid "Recommendations"
+msgstr "Συστάσεις"
