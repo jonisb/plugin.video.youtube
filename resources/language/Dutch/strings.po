@@ -2,48 +2,52 @@
 # Addon Name: YouTube
 # Addon id: plugin.video.youtube
 # Addon version: 5.1.9~beta1
-# Addon Provider: bromix
+# Addon Provider: MaikoHermans
 msgid ""
 msgstr ""
 "Project-Id-Version: XBMC-Addons\n"
 "Report-Msgid-Bugs-To: alanwww1@xbmc.org\n"
-"POT-Creation-Date: 2015-09-21 11:01+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE\n"
+"POT-Creation-Date: 2016-05-26 16:38+0000\n"
+"PO-Revision-Date: 2016-05-26 16:38+0000\n"
+"Last-Translator: Maiko Hermans <EMAIL@ADDRESS>\n"
+"Language-Team: Dutch\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: uk\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"Language: du\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 msgctxt "Addon Summary"
 msgid "Plugin for YouTube"
-msgstr ""
+msgstr "Plugin voor Youtube"
 
 msgctxt "Addon Description"
 msgid "YouTube is a one of the biggest video-sharing websites of the world."
-msgstr ""
+msgstr "YouTube is een van de grootste sites ter wereld om video's te delen."
+
+#Kodion Settings
 
 msgctxt "#30000"
 msgid "General"
-msgstr "Загальні"
+msgstr "Algemeen"
 
 msgctxt "#30001"
 msgid "Username"
-msgstr "Ім'я користувача"
+msgstr "Gebruikersnaam"
 
 msgctxt "#30002"
 msgid "Password"
-msgstr "Пароль"
+msgstr "Wachtwoord"
+
+#empty strings from id 30003 to 30008
 
 msgctxt "#30009"
 msgid "Always ask for the video quality"
-msgstr "Завжди запитувати про якість відео"
+msgstr "Vraag altijd naar video kwaliteit"
 
 msgctxt "#30010"
 msgid "Video Quality"
-msgstr "Якість відео"
+msgstr "Video Kwaliteit"
 
 msgctxt "#30011"
 msgid "480p"
@@ -73,164 +77,169 @@ msgctxt "#30017"
 msgid "360p"
 msgstr "360p"
 
+#empty strings from id 30018 to 30019
+
 msgctxt "#30020"
 msgid "Allow 3D"
-msgstr "Дозволити 3D"
+msgstr "Sta 3D Toe"
 
 msgctxt "#30021"
 msgid "Show Fanart"
-msgstr "Показувати фанарт"
+msgstr "Toon Kunst door Fans"
 
 msgctxt "#30022"
 msgid "Items per page"
-msgstr "Кількість елементів на сторінці"
+msgstr "Items per pagina"
 
 msgctxt "#30023"
 msgid "Search History Size"
-msgstr "Кількість збережених пошукових запитів"
+msgstr "Zoek historie grote"
 
 msgctxt "#30024"
 msgid "Cache Size (MB)"
-msgstr "Розмір кешу (Мб)"
+msgstr "Cache Grote (MB)"
 
 msgctxt "#30025"
 msgid "Enable setup-wizard"
-msgstr "Запустити майстер налаштування"
+msgstr "Schakel setup-wizard in"
 
 msgctxt "#30026"
 msgid "Override View"
-msgstr "Користувацьки налаштування виду"
+msgstr "Overschrijf venster"
 
 msgctxt "#30027"
 msgid "View: Default"
-msgstr "Вид: Звичайний"
+msgstr "Venster: standaard"
 
 msgctxt "#30028"
 msgid "View: Episodes"
-msgstr "Вид: Серії"
+msgstr "Venster: Afleveringen"
 
 msgctxt "#30029"
 msgid "View: Movies"
-msgstr "Вид: Фільми"
+msgstr "Venster: Films"
 
 msgctxt "#30030"
 msgid "Execute setup-wizard?"
-msgstr "Запустити майстер налаштування?"
+msgstr "Setup-wizard uitvoeren?"
 
 msgctxt "#30031"
 msgid "Advanced"
-msgstr "Розширені"
+msgstr "Geavanceerd"
 
 msgctxt "#30032"
 msgid "View: TV Shows"
-msgstr "Вид: Серіали"
+msgstr "Venster: TV Series"
 
 msgctxt "#30033"
 msgid "View: Songs"
-msgstr "Вид: Композиції"
+msgstr "Venster: Nummers"
 
 msgctxt "#30034"
 msgid "View: Artists"
-msgstr "Вид: Виконавці"
+msgstr "Venster: Artiesten"
 
 msgctxt "#30035"
 msgid "View: Albums"
-msgstr "Вид: Альбоми"
+msgstr "Venster: Albums"
 
 msgctxt "#30036"
 msgid "Support alternative player"
-msgstr "Підтримка альтернативного програвача"
+msgstr "Support alternative afspeler"
+
+#Kodion Common
+#empty strings from id 30037 to 30099
 
 msgctxt "#30100"
 msgid "Favorites"
-msgstr "Обране"
+msgstr "Favorieten"
 
 msgctxt "#30101"
 msgid "Add to addon favs"
-msgstr "Додати в обране"
+msgstr "Voeg to om favorieten toe te voegen"
 
 msgctxt "#30102"
 msgid "Search"
-msgstr "Пошук"
+msgstr "Zoeken"
 
 msgctxt "#30103"
 msgid "Library"
-msgstr "Бібліотека"
+msgstr "Bibliotheek"
 
 msgctxt "#30104"
 msgid "Highlights"
-msgstr "Рекомендоване"
+msgstr "Hoogtepunten"
 
 msgctxt "#30105"
 msgid "Archive"
-msgstr "Архів"
+msgstr "Archief"
 
 msgctxt "#30106"
 msgid "Next Page (%d)"
-msgstr "Наступна сторінка (%d)"
+msgstr "Volgende Pagina (%)"
 
 msgctxt "#30107"
 msgid "Watch Later"
-msgstr "Відкладений перегляд"
+msgstr "Kijk Later"
 
 msgctxt "#30108"
 msgid "Remove"
-msgstr "Видалити"
+msgstr "Verwijder"
 
 msgctxt "#30109"
 msgid "Latest Videos"
-msgstr "Новітнє відео"
+msgstr "Laatste Video's"
 
 msgctxt "#30110"
 msgid "New Search"
-msgstr "Новий пошук"
+msgstr "Nieuwe Zoekopdracht"
 
 msgctxt "#30111"
 msgid "Sign In"
-msgstr "Авторизація"
+msgstr "Inloggen"
 
 msgctxt "#30112"
 msgid "Sign Out"
-msgstr "Вийти"
+msgstr "Uitloggen"
 
 msgctxt "#30113"
 msgid "Rename"
-msgstr "Перейменувати"
+msgstr "Hernoem"
 
 msgctxt "#30114"
 msgid "Confirm delete"
-msgstr "Підтвердити знищення"
+msgstr "Bevestig delete"
 
 msgctxt "#30115"
 msgid "Confirm remove"
-msgstr "Підтвердити видалення"
+msgstr "Bevestig verwijderen"
 
 msgctxt "#30116"
 msgid "Delete \"%s\"?"
-msgstr "Знищіти \"%s\"?"
+msgstr "Delete \"%s\"?"
 
 msgctxt "#30117"
 msgid "Remove \"%s\"?"
-msgstr "Видалити \"%s\"?"
+msgstr "Verwijder \"%s\"?"
 
 msgctxt "#30118"
 msgid "Delete"
-msgstr "Знищення"
+msgstr "Verwijder"
 
 msgctxt "#30119"
 msgid "Please wait..."
-msgstr "Будь ласка, почекайте..."
+msgstr "Geduld AUB..."
 
 msgctxt "#30120"
 msgid "Clear"
-msgstr "Очистити"
+msgstr "Schoon op"
 
 #YouTube
 #empty strings from id 30121 to 30199
 
 msgctxt "#30200"
 msgid "API Key"
-msgstr ""
+msgstr "API Sleutel"
 
 msgctxt "#30201"
 msgid "API Browser Key"
@@ -249,208 +258,208 @@ msgstr ""
 
 msgctxt "#30500"
 msgid "Channels"
-msgstr "Канали"
+msgstr "Kanalen"
 
 msgctxt "#30501"
 msgid "Playlists"
-msgstr "Плейлисти"
+msgstr "Aspeellijsten"
 
 msgctxt "#30502"
 msgid "Go to %s"
-msgstr "Перейти до %s"
+msgstr "Ga naar %s"
 
 msgctxt "#30503"
 msgid "Show channel fanart"
-msgstr "Показувати фанарти каналів"
+msgstr "Toon kanaal kunst door fans"
 
 msgctxt "#30504"
 msgid "Subscriptions"
-msgstr "Підписки"
+msgstr "Abbonee's"
 
 msgctxt "#30505"
-msgid "Unsubscribe"
-msgstr "Відмінити підписку"
+msgid "Afmelden"
+msgstr ""
 
 msgctxt "#30506"
 msgid "Subscribe"
-msgstr "Підписатися"
+msgstr "Abboneer"
 
 msgctxt "#30507"
 msgid "My Channel"
-msgstr "Мої канали"
+msgstr "Mijn Kanaal"
 
 msgctxt "#30508"
 msgid "Liked Videos"
-msgstr "Вподобане відео"
+msgstr "Gelikete Video's"
 
 msgctxt "#30509"
 msgid "History"
-msgstr "Історія"
+msgstr "Geschiedenis"
 
 msgctxt "#30510"
 msgid "My Subscriptions"
-msgstr "Мої підписки"
+msgstr "Mijn Abbonee's"
 
 msgctxt "#30511"
 msgid "Queue video"
-msgstr "Додати в чергу"
+msgstr "Video wachtrij"
 
 msgctxt "#30512"
 msgid "Browse Channels"
-msgstr "Перегляд каналів"
+msgstr "Blader door Kanalen"
 
 msgctxt "#30513"
 msgid "Popular right now"
-msgstr "Популярне зараз"
+msgstr "Populair op dit moment"
 
 msgctxt "#30514"
 msgid "Related Videos"
-msgstr "Схоже відео"
+msgstr "Gerelateerde Video's"
 
 msgctxt "#30515"
 msgid "Auto-Remove from 'Watch Later'"
-msgstr "Авто-видалення з \"Відкладеного перегляду\""
+msgstr "Verwijder automatisch van 'Later Bekijken'"
 
 msgctxt "#30516"
 msgid "Folders"
-msgstr "Елементи меню"
+msgstr "Mappen"
 
 msgctxt "#30517"
 msgid "Subscribe to %s"
-msgstr "Підписатися на %s"
+msgstr "Abboneer op %s"
 
 msgctxt "#30518"
 msgid "Go to '%s'"
-msgstr "Перейдіть по '%s'"
+msgstr "Ga naar '%s'"
 
 msgctxt "#30519"
 msgid "and enter the following code:"
-msgstr "і введіть наступний код:"
+msgstr "en vul de volgende code in:"
 
 msgctxt "#30520"
 msgid "Add to..."
-msgstr "Додати в..."
+msgstr "Voeg toe aan..."
 
 msgctxt "#30521"
 msgid "Select playlist"
-msgstr "Вибрати плейліст"
+msgstr "Selecteer afspeellijst"
 
 msgctxt "#30522"
 msgid "New playlist..."
-msgstr "Новий плейліст..."
+msgstr "Nieuwe afspeellijst..."
 
 msgctxt "#30523"
 msgid "Language"
-msgstr "Мова"
+msgstr "Taal"
 
 msgctxt "#30524"
 msgid "Select language"
-msgstr "Виберіть мову"
+msgstr "Selecteer taal"
 
 msgctxt "#30525"
 msgid "Select region"
-msgstr "Виберіть регіон"
+msgstr "Selecteer regio"
 
 msgctxt "#30526"
 msgid "Adjust"
-msgstr "Регіональні налаштування"
+msgstr "Aanpassen"
 
 msgctxt "#30527"
 msgid "Language and region?"
-msgstr "Налаштувати мову та регіон?"
+msgstr "Taal en regio?"
 
 msgctxt "#30528"
 msgid "Rate..."
-msgstr "Оцінити..."
+msgstr "Beoordeling..."
 
 msgctxt "#30529"
 msgid "I like this"
-msgstr "Мені сподобалося"
+msgstr "Ik vind dit leuk"
 
 msgctxt "#30530"
 msgid "I dislike this"
-msgstr "Мені не сподобалося"
+msgstr "Ik vind dit niet leuk"
 
 msgctxt "#30531"
 msgid "Play all"
-msgstr "Програти все"
+msgstr "Alles afspelen"
 
 msgctxt "#30532"
 msgid "Default"
-msgstr "Звичайний порядок"
+msgstr "Standaard"
 
 msgctxt "#30533"
 msgid "Reverse"
-msgstr "Зворотний порядок"
+msgstr "Omgekeerd"
 
 msgctxt "#30534"
 msgid "Shuffle"
-msgstr "Випадковий порядок"
+msgstr "Schuifelen"
 
 msgctxt "#30535"
 msgid "Select the order of the playlist"
-msgstr "Порядок відтворення"
+msgstr "Selecteer volgerde van de afspeellijst"
 
 msgctxt "#30536"
 msgid "Updating Playlist..."
-msgstr "Оновлення плейліста..."
+msgstr "Afspeellijst updaten..."
 
 msgctxt "#30537"
 msgid "Play from here"
-msgstr "Програти з цього місця"
+msgstr "Vanaf hier afspelen"
 
 msgctxt "#30538"
 msgid "Disliked Videos"
-msgstr "Відео, яке не сподобалось"
+msgstr "Video's die ik niet leuk vind"
 
 msgctxt "#30539"
 msgid "Live"
-msgstr "Прямий ефір"
+msgstr "Live"
 
 msgctxt "#30540"
 msgid "Play with..."
-msgstr "Відтворити за допомогою..."
+msgstr "Afspelen met..."
 
 msgctxt "#30541"
 msgid "Show channel name in description"
-msgstr "Показувати назву каналу в описі"
+msgstr "Toon kanaal naam in beschrijving"
 
 msgctxt "#30542"
 msgid "rtmpe streams are not supported"
-msgstr "потоки rtmpe не підтримуються"
+msgstr "rtmpe streams zijn niet toegestaan"
 
 msgctxt "#30543"
 msgid "Refresh"
-msgstr "Оновити"
+msgstr "Herladen"
 
 msgctxt "#30544"
 msgid "More Links from the description"
-msgstr "Більше посилань з опису"
+msgstr "Meer links van de beschrijving"
 
 msgctxt "#30545"
 msgid "No further links found."
-msgstr "Подальших посилань не знайдено."
+msgstr "Geen andere links gevonden"
 
 msgctxt "#30546"
 msgid "Please log in twice!"
-msgstr "Будь-ласка, увійдіть двічі!"
+msgstr "Log AUB twee keer in!"
 
 msgctxt "#30547"
 msgid "You must enable two applications so that YouTube is functioning properly."
-msgstr "Ви повинні підключити дві копії програми щоб YouTube працював правильно."
+msgstr "Je moet twee applicaties inschakelen zodat YouTube volledig kan functioneren."
 
 msgctxt "#30548"
 msgid "More..."
-msgstr "Ще..."
+msgstr "Meer..."
 
 msgctxt "#30549"
 msgid "No videos streams found"
-msgstr "Відеопотоки не знайдені"
+msgstr "Geen video streams gevonden"
 
 msgctxt "#30550"
 msgid "Region"
-msgstr "регіон"
+msgstr "Regio"
 
 msgctxt "#30551"
 msgid "Recommendations"
-msgstr ""
+msgstr "Aanbevolen"
