@@ -1,28 +1,25 @@
 __author__ = 'bromix'
 
-import xbmcaddon
 import time
 import urlparse
-
 from resources.lib.kodion import simple_requests as requests
 from resources.lib.youtube.youtube_exceptions import LoginException
+from __config__ import keys_changed, api
 
-addon = xbmcaddon.Addon()
-api_key = addon.getSetting('youtube.api.key')
-api_id = addon.getSetting('youtube.api.id').replace('.apps.googleusercontent.com', '')
-api_secret = addon.getSetting('youtube.api.secret')
 
 class LoginClient(object):
+    api_keys_changed = keys_changed()
+
     CONFIGS = {
-         'youtube-tv': {
+        'youtube-tv': {
             'system': 'All',
-            'key': '%s' % api_key,
-            'id': '%s.apps.googleusercontent.com' % api_id,
-            'secret': '%s' % api_secret
+            'key': api['key'],
+            'id': api['id'],
+            'secret': api['secret']
         }
     }
 
-    def __init__(self, config, language='en_US',  region='', access_token='', access_token_tv=''):
+    def __init__(self, config, language='en-US', region='', access_token='', access_token_tv=''):
         self._config = config
         self._config_tv = self.CONFIGS['youtube-tv']
 

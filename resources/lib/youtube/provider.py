@@ -104,8 +104,8 @@ class Provider(kodion.AbstractProvider):
             self._client = None
             pass
 
-        youtube_config = YouTube.CONFIGS.get('youtube-tv', None)
-        if not self._client and youtube_config:
+        youtube_config = YouTube.CONFIGS.get('youtube-tv')
+        if not self._client:
             context.log_debug('Selecting YouTube config "%s"' % youtube_config['system'])
 
             language = context.get_settings().get_string('youtube.language', 'en-US')
@@ -116,6 +116,9 @@ class Provider(kodion.AbstractProvider):
                 access_manager.remove_login_credentials()
                 pass
             if access_manager.has_login_credentials() or access_manager.has_refresh_token():
+                if YouTube.api_keys_changed:
+                    self.reset_client()
+                    access_manager.update_access_token(access_token='', refresh_token='')
                 # username, password = access_manager.get_login_credentials()
                 access_tokens = access_manager.get_access_token()
                 if access_tokens:

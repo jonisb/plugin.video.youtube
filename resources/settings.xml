@@ -50,8 +50,11 @@
     
     <!-- personal api key -->
     <category label="30200">
+        <setting id="youtube.api.key.switch" type="enum" label="30204" values="0|1|2|3|4|5" default="5"/>
         <setting id="youtube.api.key" type="text" label="30201" default=""/>
         <setting id="youtube.api.id" type="text" label="30202" default=""/>
         <setting id="youtube.api.secret" type="text" label="30203" default=""/>
+        <setting id="youtube.api.key.last" type="text" label="" visible="false" enable="true" default=""/>
+        <setting id="youtube.api.key.switch.use" type="text" label="" visible="false" enable="true" default=""/>
     </category>
 </settings>
