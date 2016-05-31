@@ -1,5 +1,8 @@
-Removed all keys/quota function other than from Settings
+Removed all quota function
 Update english strings to more a detailed description for API/OAuth keys
+API key set switching available in settings
+Override API key set by providing own keys
+MPD/DASH Support ** only available in Kodi 17
 Bump requirements to Kodi 14+
 
 5.2.2 (2016-05-28)
